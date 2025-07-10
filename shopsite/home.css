@@ -569,6 +569,129 @@ header{
 
 /* FOOTER STYLING ENDS */
 
+/* ========== RESPONSIVENESS ========== */
+@media screen and (max-width: 1024px) {
+    .body-1, .body-4, .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-grid,
+    .products-grid {
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .product-card,
+    .product {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .promo-section, .products-section {
+        padding: 30px 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container {
+        height: auto;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .hero-content {
+        margin: 50px auto 0;
+    }
+
+    .h2 {
+        width: auto;
+    }
+
+    .h1 {
+        font-size: 1.8rem;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 15px;
+        background-color: #9ed329;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .love-btn {
+        margin: 10px auto;
+    }
+
+    .products {
+        padding: 20px;
+    }
+
+    .body-4 {
+        padding: 20px;
+    }
+
+    .bioearth-section {
+        padding: 30px 15px;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .product img,
+    .product-card img {
+        height: auto;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .promo-title {
+        font-size: 2.5rem;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+
+    .footer-links a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .login-form-container {
+        padding: 20px;
+    }
+}
+
+
 
 
   
